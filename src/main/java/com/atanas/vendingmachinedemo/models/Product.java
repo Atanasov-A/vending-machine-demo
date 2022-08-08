@@ -17,10 +17,6 @@ public class Product {
         this.productName = productName;
         this.productPrice = productPrice;
         this.id = UUID.randomUUID();
-        // TODO fix
-        if (productAmount < 0) {
-            System.out.println("Error: product amount can't be less than 0");
-        }
         this.productAmount = productAmount;
     }
 
