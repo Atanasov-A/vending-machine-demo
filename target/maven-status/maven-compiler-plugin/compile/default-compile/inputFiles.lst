@@ -1,0 +1,16 @@
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/constants/ApiConstants.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/validators/NewProductValidator.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/models/Product.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/exceptions/ProductNotAvailable.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/services/impl/VendingMachineServiceImpl.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/enums/BulgarianCoins.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/converters/ProductConverter.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/models/dto/CoinDto.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/models/dto/ProductResponse.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/controllers/VendingMachineController.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/VendingMachineDemoApplication.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/repositories/VendingMachineInventoryRepository.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/utils/Helpers.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/services/VendingMachineService.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/models/dto/ProductDto.java
+/home/atanas/IdeaProjects/vending-machine-demo/src/main/java/com/atanas/vendingmachinedemo/exceptions/NotEnoughMoneyException.java

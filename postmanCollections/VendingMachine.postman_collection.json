@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "3442d8d0-d440-4874-9bfe-330b515b7dc9",
+		"name": "VendingMachine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "vending-machine",
+			"item": [
+				{
+					"name": "products",
+					"item": [
+						{
+							"name": "GET products-list",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/vending-machine/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"vending-machine",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET product-item",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/vending-machine/products/512b78df-9d7f-4266-94ff-ceabc72e9b38",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"vending-machine",
+										"products",
+										"512b78df-9d7f-4266-94ff-ceabc72e9b38"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create new product",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productName\": \"chocolate\",\n    \"productPrice\": 1.20,\n    \"productAmount\": \"10\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/vending-machine/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"vending-machine",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update product",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\n        \"productName\": \"coca-cola\",\n        \"productPrice\": 1.20,\n        \"productAmount\": 5\n    },",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/vending-machine/products/d70a7e2a-72ad-4f62-b1da-cc765172cf1e",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"vending-machine",
+										"products",
+										"d70a7e2a-72ad-4f62-b1da-cc765172cf1e"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete product",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/vending-machine/products/ed018414-e4a9-42f7-9617-63c8be936f40",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"vending-machine",
+										"products",
+										"ed018414-e4a9-42f7-9617-63c8be936f40"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Insert coin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"coin\": \"TWO_LEV_COIN\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/vending-machine/coins",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vending-machine",
+								"coins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Inserted Coins",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vending-machine/coins",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vending-machine",
+								"coins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Return inserted coins",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vending-machine/coins",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vending-machine",
+								"coins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vending-machine/products/buy/8669124f-ea97-45bf-a038-b124f796b21a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vending-machine",
+								"products",
+								"buy",
+								"8669124f-ea97-45bf-a038-b124f796b21a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
